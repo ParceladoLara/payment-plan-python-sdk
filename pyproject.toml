@@ -5,6 +5,10 @@ description = "A Python SDK for Lara Payment Plan, a wrapper around the Lara Pay
 authors = [
     { name = "Parcelado Lara", email = "it-group@lara.app.br" }
 ]
-license = { text = "MIT" }
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.6"
+classifiers = ['Programming Language :: Python :: 3', 'Operating System :: POSIX :: Linux', 'Operating System :: Microsoft :: Windows']
+
+[tool.setuptools]
+packages = ["payment_plan", "payment_plan._payment_plan"]
