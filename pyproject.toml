@@ -11,4 +11,4 @@ requires-python = ">=3.6"
 classifiers = ['Programming Language :: Python :: 3', 'Operating System :: POSIX :: Linux', 'Operating System :: Microsoft :: Windows']
 
 [tool.setuptools]
-packages = ["payment_plan", "payment_plan._payment_plan"]
+packages = ["payment_plan", "payment_plan._internal"]

@@ -1,1 +1,1 @@
-recursive-include payment_plan/internal *
+recursive-include payment_plan/_internal *

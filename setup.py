@@ -9,7 +9,7 @@ setup(
     author="Parcelado Lara",
     author_email="	it-group@lara.app.br",
     url="https://github.com/ParceladoLara/payment-plan-python-sdk",
-    packages=find_packages(include=["payment_plan", "payment_plan.*"]),
+    packages=find_packages(include=["payment_plan", "payment_plan._internal"]),
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
