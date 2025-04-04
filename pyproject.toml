@@ -1,0 +1,10 @@
+[project]
+name = "payment-plan-python-sdk"
+version = "1.0.0"
+description = "A Python SDK for Lara Payment Plan, a wrapper around the Lara Payment Plan Rust library."
+authors = [
+    { name = "Parcelado Lara", email = "it-group@lara.app.br" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.6"
