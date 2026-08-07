@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="payment-plan-python-sdk",
-    version="3.2.1",
+    version="v3.2.4",
     description="A Python SDK for Lara Payment Plan, a wrapper around the Lara Payment Plan Rust library.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
