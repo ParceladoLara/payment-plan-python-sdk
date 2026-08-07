@@ -32,13 +32,12 @@ jobs:
           data = tomllib.loads(Path("pyproject.toml").read_text(encoding="utf-8"))
           version = data["project"]["version"]
           tag = os.environ["GITHUB_REF_NAME"]
-          normalized = tag[1:] if tag.startswith("v") else tag
 
-          if normalized != version:
+          if tag != version:
               raise SystemExit(
                   f"Release tag ({tag}) does not match pyproject version ({version})"
               )
-          print(f"Version check OK: {normalized}")
+          print(f"Version check OK: {tag}")
           PY
 
       - name: Install build tools
